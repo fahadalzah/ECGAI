@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> CONTACT-US | ECGAI </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link
+  rel="stylesheet"
+  href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/img/ECGAI__5_-removebg-preview.png">
+<script>
+src="https://kit.fontawesome.com/b80c14004f.js"
+crossorigin="anonymous"
+></script>
+<link rel="stylesheet" href="/pages/contact-us/contact.css" />
+</head>
+<body dir="ltr">
+  <!-- Navbar || Links & logo || Contact-us -->
+  <nav class="navbar navbar-expand-lg sticky-top nav" id="nav" style="padding-top: 1%; z-index: 99;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/pages/homepage/homepage.html" style="margin-left: 4%;">
+        <img src="/img/ECGAI__5_-removebg-preview.png" alt="ECGAI LOGO" width="70" height="70">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="active" class="nav-link active" aria-current="page" href="/pages/homepage/homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/about-us/about-us.html">About-us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact-us/contact.html">Contact-us</a>
+          </li>
+        </ul>
+        <a class="btn btn-primary" id="signup" href="/pages/learnmore/learnmore.html" role="button">Learn more</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Main || Everything || Contact-us -->
+  <main>
+    <!-- Left side || Introduction || Contact-us -->
+    <section class="left">
+      <p 
+      style="color: #5ac99d; font-size: 33px; font-weight: 600; margin-bottom: 0px;" 
+      class="main-content"
+      >
+      Welcome 👋
+    </p>
+    <h1 class="main-content">Stay In contact</h1>
+    <p id="left_p" style="color: rgb(131, 121, 121)" class="main-content">
+      Write your request and we will respond and contact you as soon as possible.
+    </p>
+    <section class="socials">
+      <section class="social-contact">
+        <img
+        src="/img/envelope.png"
+        alt="mail icon"
+        width="45"
+        height="45"
+        />
+        <section class="content2">
+          <p>Email us:</p>
+          <a href="#">ECGAI@gmail.com</a>
+        </section>
+      </section>
+      <!-- left side || Phone & Email || Contact-us-->
+      <section class="social-contact">
+        <img
+        src="/img/phone-call.png"
+        alt="phone icon"
+        width="45"
+        height="45"
+        />
+        <section class="content2">
+          <p>For quick help:              </p>
+          <a href="tel:+966552769336">+96605123456789 </a>
+        </section>
+      </section>
+    </section>
+  </section>
+  <!-- Right side || Inputs || Contact-us-->
+  <section class="right" >
+    <form action="mailto:contact@codelmz.com" method="post">
+      <p>Name<i style="color: lightcoral;">*</i></p>
+      <input type="text" name="Name" placeholder="Name" required/>
+      <p>Email address<i style="color: lightcoral;">*</i></p>
+      <input type="email" placeholder="ECGAI@domain.com" required />
+      <p>Topic<i style="color: lightcoral;">*</i></p>
+      <input
+      type="text"
+      id="Subject"
+      name="Subject"
+      placeholder="Topic"
+      required
+      />
+      <p>How can we assist you?<i style="color: lightcoral;">*</i></p>
+      <textarea
+      id="message"
+      name="Message"
+      style="width: 300px; height: 60px; "
+      required
+      ></textarea>
+      <!-- Right side || Submit-button || Contact-us-->
+      <input class="submit-btn" type="submit" value="Send now >>" />
+    </form>
+  </section>
+</main>
+<!--Footer || Copyright & Links || Contact-us-->
+<div class="container" data-aos="fade-up">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" style="background-color: whitesmoke;">
+      <!--Footer || End || Contact-us-->
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">More</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 ECGAI, Inc</p>
+  </footer>
+</div>
+<!--Footer || End || Contact-us-->
+<!--Script || Start || Contact-us-->
+<script>
+document.addEventListener('scroll', function () {
+  const nav = document.querySelector('.nav');
+  // Javascript || Scroll effect || Contact-us \\
+  if (window.scrollY > 100) {
+    nav.classList.add('scrolled');
+  }    else {
+    // Javascript || Scroll effect remover || Contact-us
+
+    nav.classList.remove('scrolled');
+  }
+})
+</script>
+<!--Script || End || Contact-us-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
