@@ -80,8 +80,7 @@ html{
 }
 
 #btn_primary:hover {
-    background-color: red;
-    color: whitesmoke;
+    background-color: #43866c ;
 }
 
 #outline_btn {
@@ -90,10 +89,10 @@ html{
     color: #5ac99d;
 }
 
-#outline_btn:hover {
-    background-color: #5ac99d;
-    color: whitesmoke;
+#outline_btn:hover{
+    background-color: #e7e2e2;
 }
+
 
 .lead {
     font-weight: 500;
