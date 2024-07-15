@@ -18,7 +18,26 @@ body {
     margin-left: 10px;
     transition: .25s ease-in-out;
 }
+html{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
 
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5ac99d;
+    border-radius: 15px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #5ba587;
+  }
 .nav-link:hover {
     color: #fff;
     background-color: #5ac99d;

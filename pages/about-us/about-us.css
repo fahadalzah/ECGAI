@@ -37,6 +37,26 @@
     font-weight: 500;
     transition: .25s ease-in-out;
 }
+html{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5ac99d;
+    border-radius: 15px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #5ba587;
+  }
 
 .nav-link:hover {
     color: #fff;
@@ -121,14 +141,6 @@
         }
 }
 @media only screen and (max-width: 991px) {
-    .collapse{
-        display: flex;
-        align-items: self-end;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        width: 100%;
-    }
     #signup{
         margin: 0;
     }
@@ -209,3 +221,9 @@
     background-color: #5ac99d;
     text-align: center;
 } */
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

@@ -13,6 +13,6 @@ const type = new Typed("#title", {
   smartBackspace: true,
   startDelay: 5,
   loop:true,
-  backSpeed: 20,
+  backSpeed: 40,
   showCursor:false,
 });
