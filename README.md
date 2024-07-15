@@ -16,6 +16,6 @@
 - Research
 ### Yousef Aledini
 - Internet Supplier
-- Assited with the presentation
+- Assisted with the presentation
 ### Hani Kujuk
 - Research
