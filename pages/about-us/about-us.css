@@ -10,6 +10,9 @@
     padding: 10px;
 
 }
+body{
+    overflow-x: hidden;
+}
 .contect{
     width: 500px;
     height: max-content;

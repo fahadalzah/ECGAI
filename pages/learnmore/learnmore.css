@@ -89,7 +89,9 @@ html{
     outline: 2px solid #5ac99d;
     color: #5ac99d;
 }
-
+body{
+    overflow-x: hidden;
+}
 #outline_btn:hover {
     background-color: #5ac99d;
     color: whitesmoke;
